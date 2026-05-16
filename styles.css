@@ -7,15 +7,15 @@ body {
 }
 
 /* ==== Font override – highest specificity ==================== */
-html .quarto-body,
-html .quarto-body *,
-html .quarto-body p,
-html .quarto-body h1,
-html .quarto-body h2,
-html .quarto-body h3,
-html .quarto-body h4,
-html .quarto-body h5,
-html .quarto-body h6 {
+body,
+body * ,
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
   font-family: Cambria, "Times New Roman", serif !important;
 }
 
