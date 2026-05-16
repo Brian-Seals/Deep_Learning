@@ -20,20 +20,20 @@ body h6 {
 }
 
 /* ==== Code / monospaced text =============================== */
-html .quarto-body code,
-html .quarto-body pre,
-html .quarto-body .sourceCode {
+body code,
+body pre,
+body .sourceCode {
   font-family: Consolas, "Courier New", monospace !important;
 }
 
 @media print {
-  html .quarto-body,
-  html .quarto-body * {
+  body,
+  body * {
     font-family: Cambria, "Times New Roman", serif !important;
   }
-  html .quarto-body code,
-  html .quarto-body pre,
-  html .quarto-body .sourceCode {
+  body code,
+  body pre,
+  body .sourceCode {
     font-family: Consolas, "Courier New", monospace !important;
   }
 }
