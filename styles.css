@@ -7,8 +7,9 @@ body {
 }
 
 /* ==== Font override – highest specificity ==================== */
+/* ==== Font override ======================================== */
 body,
-body * ,
+body *,
 body p,
 body h1,
 body h2,
